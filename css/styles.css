@@ -60,18 +60,19 @@ ol {
   display: flex;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 .link {
   text-decoration: none;
 }
@@ -271,13 +272,12 @@ ol {
   padding-right: 15px;
   padding-left: 15px;
   display: flex;
-  width: calc(100% - (24px * 2) / 3);
   gap: 24px;
   margin: 0 auto;
   justify-content: center;
 }
 
-.development-menu-item {
+.development-menu-item{ width: calc((100% - 48px) / 3);
 }
 .team {
   background-color: #f4f4fd;
