@@ -84,16 +84,12 @@ ol {
 .header {
   align-items: center;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  display: block;
 }
 .header-container {
   display: flex;
   align-items: center;
-  padding-left: 156px;
-  padding-right: 15px;
-  width: 100%;
-  max-width: 1158px;
-  margin-right: 15px;
-  margin: 0;
+  padding-left: 156p;
 }
 .header-navigation {
   align-items: center;
@@ -178,15 +174,6 @@ ol {
   align-items: center;
   padding: 188px;
 }
-.business-container {
-  padding-left: 15px;
-  padding-right: 15px;
-  flex-shrink: 0;
-  margin: 0 auto;
-  display: block;
-  width: 100%;
-  max-width: 1158px;
-}
 
 .business-title {
   color: var(--white, #ffffff);
@@ -238,12 +225,7 @@ ol {
   gap: 24px;
 }
 .skills-container {
-  display: flex;
-  margin: 0 auto;
   padding-bottom: 120px;
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .skills-menu-item {
   width: calc((100% - 3 * 72px) / 4);
@@ -277,12 +259,7 @@ ol {
 }
 
 .development-container {
-  padding-left: 15px;
-  padding-right: 15px;
   padding-bottom: 120px;
-  width: 100%;
-  max-width: 1158px;
-  margin: 0 auto;
 }
 .development-menu-list {
   padding-right: 15px;
@@ -305,11 +282,6 @@ ol {
 .team-container {
   padding-top: 120px;
   padding-bottom: 120px;
-  width: 100%;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
 }
 
 .team-title {
@@ -362,8 +334,6 @@ ol {
 /*------------------PORTFOLIO-----------------*/
 .portfolio-container {
   padding-bottom: 72px;
-  margin: 0 auto;
-  display: flex;
 }
 
 .porfolio-filtr-list {
@@ -409,10 +379,6 @@ ol {
 }
 .portfolio-menu-conteiner {
   padding-bottom: 100px;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
 }
 
 .portfolio-item {
@@ -447,10 +413,7 @@ ol {
 .footer-container {
   padding-top: 140px;
   padding-bottom: 100px;
-  padding-right: 15px;
-  padding-left: 15px;
   flex-shrink: 0;
-  width: 100%;
 }
 .footer-logo {
   color: var(--iris, #4d5ae5);
