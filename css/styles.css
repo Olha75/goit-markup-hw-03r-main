@@ -57,6 +57,7 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  display: flex;
 }
 
 .visually-hidden {
@@ -108,11 +109,11 @@ ol {
   padding-bottom: 24px;
   display: flex;
   align-items: center;
+  margin-right: 76px;
 }
 .header-logo-color {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  margin-right: 76px;
 }
 
 .header-menu-list {
@@ -337,9 +338,14 @@ ol {
 }
 
 /*------------------PORTFOLIO-----------------*/
-.portfolio-container {
-  padding-bottom: 72px;
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
+
+/*.portfolio-container {
+  padding-bottom: 72px;
+}*/
 
 .porfolio-filtr-list {
   width: 1158px;
@@ -348,6 +354,9 @@ ol {
   padding-left: 15px;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .portfolio-btn {
@@ -414,6 +423,7 @@ ol {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-container {
   padding-top: 140px;
@@ -428,6 +438,8 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-color {
@@ -441,5 +453,5 @@ ol {
   letter-spacing: 0.02em;
   margin: 0;
   margin-top: 17.5px;
-  width: 264px;
+  max-width: 264px;
 }
