@@ -173,10 +173,12 @@ ol {
 .business {
   background-color: #2e2f42;
   text-align: center;
-  align-items: center;
-  padding: 188px 472px;
+  padding: 188px 0;
   display: block;
   margin: 0 auto;
+  align-items: center;
+  
+  
 
 }
 
@@ -190,7 +192,9 @@ ol {
   max-width: 496px;
   margin: 0 auto 48px;
   flex-shrink: 0;
+  display: inline-block;
   text-align: center;
+  justify-items: center;
 }
 
 .business-btn {
@@ -206,8 +210,9 @@ ol {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  display: block;
   min-width: 169px;
+  display: block;
+  justify-items: center;
 }
 
 .business-btn:hover,
@@ -253,10 +258,10 @@ ol {
 /*----------------DEVELOPMENT-------------*/
 .development {
   padding-bottom: 120px;
+
 }
 .development-title {
   color: var(--navyblue, #2e2f42);
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
