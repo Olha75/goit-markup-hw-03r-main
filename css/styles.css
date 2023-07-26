@@ -56,7 +56,7 @@ ol {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -112,11 +112,11 @@ ol {
   padding-bottom: 24px;
   display: flex;
   align-items: center;
-  
 }
 .header-logo-color {
   color: var(--navyblue, #2e2f42);
-  text-align: center;margin-right: 76px;
+  text-align: center;
+  margin-right: 76px;
 }
 
 .header-menu-list {
@@ -137,7 +137,6 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   display: flex;
-  
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -212,8 +211,7 @@ ol {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  margin : 0, auto;
-
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -226,15 +224,16 @@ ol {
 
 /*----------------SKILLS--------------*/
 
-.skills {padding-top: 120px;
+.skills {
+  padding-top: 120px;
 }
 
 .skills-menu {
   display: flex;
   align-items: flex-start;
-margin: 0 auto;
-justify-content: space-between;
-padding-left: 15px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-left: 15px;
   padding-right: 15px;
   gap: 24px;
 }
@@ -243,11 +242,10 @@ padding-left: 15px;
   margin: 0 auto;
   padding-bottom: 120px;
   width: 100%;
- padding-left: 15px;
+  padding-left: 15px;
   padding-right: 15px;
 }
 .skills-menu-item {
-  
   width: calc((100% - 3 * 72px) / 4);
 }
 .skills-subtitle {
@@ -284,7 +282,7 @@ padding-left: 15px;
   padding-bottom: 120px;
   width: 100%;
   max-width: 1158px;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 .development-menu-list {
   padding-right: 15px;
@@ -311,7 +309,7 @@ padding-left: 15px;
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 
 .team-title {
@@ -364,17 +362,17 @@ padding-left: 15px;
 /*------------------PORTFOLIO-----------------*/
 .portfolio-container {
   padding-bottom: 72px;
-    margin: 0 auto;
-    display: flex;
+  margin: 0 auto;
+  display: flex;
 }
 
 .porfolio-filtr-list {
   width: 1158px;
   width: calc(100% - (24px * 4) / 5);
   padding-right: 15px;
-  padding-left: 15;
+  padding-left: 15px;
   margin: 0 auto;
- display: flex;
+  display: flex;
 }
 
 .portfolio-btn {
@@ -390,10 +388,10 @@ padding-left: 15px;
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
-  margin: o auto;
-   display: flex;
-justify-content: center;
-align-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -414,7 +412,7 @@ align-items: center;
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 
 .portfolio-item {
@@ -449,7 +447,7 @@ align-items: center;
 .footer-container {
   padding-top: 140px;
   padding-bottom: 100px;
-padding-right: 15px;
+  padding-right: 15px;
   padding-left: 15px;
   flex-shrink: 0;
   width: 100%;
