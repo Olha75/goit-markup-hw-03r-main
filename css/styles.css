@@ -364,9 +364,8 @@ padding-left: 15px;
 /*------------------PORTFOLIO-----------------*/
 .portfolio-container {
   padding-bottom: 72px;
-  display: inline-block;
-  justify-self: center;
-  margin: 0 auto;
+    margin: 0 auto;
+    display: flex;
 }
 
 .porfolio-filtr-list {
@@ -375,7 +374,7 @@ padding-left: 15px;
   padding-right: 15px;
   padding-left: 15;
   margin: 0 auto;
-  display: inline-block;
+ display: flex;
 }
 
 .portfolio-btn {
@@ -391,8 +390,10 @@ padding-left: 15px;
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
-  display:inline-block;
   margin: o auto;
+   display: flex;
+justify-content: center;
+align-items: center;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
