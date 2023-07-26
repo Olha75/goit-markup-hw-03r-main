@@ -120,6 +120,8 @@ ol {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
+.header-menu-item{padding: 24px 0;}
 .header-address-menu {
 }
 
@@ -228,6 +230,7 @@ ol {
 
 .skills-menu-item {
   width calc((100% - 3 * 24px) / 4);
+  
 }
 .skills-subtitle {
   color: var(--navyblue, #2e2f42);
@@ -334,7 +337,7 @@ ol {
   padding-bottom: 120px;
 }
 
-.porfolio-filtr-list {
+.portfolio-filtr-list {
   width: 1158px;
   width: calc(100% - (24px * 4) / 5);
   padding-right: 15px;
@@ -369,6 +372,7 @@ ol {
   background-color: var(--ocean, #404bbf);
   color: var(--white, #ffffff);
   text-decoration: none;
+  border: 1px solid transparent;
 }
 
 .portfolio-projects-list {
@@ -383,6 +387,13 @@ ol {
   width: calc((100% - 48px) / 3);
   padding-bottom: 32px;
   border: 1px solid var(--cornflower, #e7e9fc);
+}
+
+.portfolio-card{padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+
+
 }
 .portfolio-img {
   margin-bottom: 32px;
