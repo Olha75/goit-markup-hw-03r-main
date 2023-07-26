@@ -60,18 +60,18 @@ ol {
   display: flex;
 }
 
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .link {
   text-decoration: none;
@@ -229,9 +229,7 @@ ol {
   padding-right: 15px;
   gap: 24px;
 }
-.skills-container {
-  padding-bottom: 120px;
-}
+
 .skills-menu-item {
   width: calc((100% - 72px) / 4);
 }
@@ -265,9 +263,6 @@ ol {
   display: block;
 }
 
-/*.development-container {
-  padding-bottom: 120px;
-}*/
 .development-menu-list {
   padding-right: 15px;
   padding-left: 15px;
@@ -275,20 +270,17 @@ ol {
   gap: 24px;
   margin: 0 auto;
   justify-content: center;
+  width: calc((100% - 48px) / 3);
 }
 
-.development-menu-item{ width: calc((100% - 48px) / 3);
+.development-menu-item {
+  width: calc((100% - 48px) / 3);
 }
 .team {
   background-color: #f4f4fd;
 }
 
 /*----------------TEAM----------------*/
-
-.team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .team-title {
   color: var(--navyblue, #2e2f42);
@@ -343,10 +335,6 @@ ol {
   padding-bottom: 120px;
 }
 
-/*.portfolio-container {
-  padding-bottom: 72px;
-}*/
-
 .porfolio-filtr-list {
   width: 1158px;
   width: calc(100% - (24px * 4) / 5);
@@ -391,9 +379,6 @@ ol {
   flex-wrap: wrap;
   gap: 48px 24px;
 }
-.portfolio-menu-conteiner {
-  padding-bottom: 100px;
-}
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
@@ -424,11 +409,6 @@ ol {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-}
-.footer-container {
-  padding-top: 140px;
-  padding-bottom: 100px;
-  flex-shrink: 0;
 }
 .footer-logo {
   color: var(--iris, #4d5ae5);
