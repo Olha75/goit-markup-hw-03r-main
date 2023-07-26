@@ -88,11 +88,12 @@ ol {
 .header-container {
   display: flex;
   align-items: center;
-  padding-left: 15px;
+  padding-left: 156px;
   padding-right: 15px;
   width: 100%;
   max-width: 1158px;
-  margin: 0, auto;
+  margin-right: 15px;
+  margin: 0;
 }
 .header-navigation {
   align-items: center;
@@ -111,11 +112,11 @@ ol {
   padding-bottom: 24px;
   display: flex;
   align-items: center;
-  margin-right: 76px;
+  
 }
 .header-logo-color {
   color: var(--navyblue, #2e2f42);
-  text-align: center;
+  text-align: center;margin-right: 76px;
 }
 
 .header-menu-list {
@@ -136,7 +137,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   display: flex;
-  margin-left: 76px;
+  
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -209,6 +210,9 @@ ol {
   font-family: inherit;
   margin: 0 auto;
   border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin : 0, auto;
 
   text-align: center;
 }
@@ -227,22 +231,24 @@ ol {
 
 .skills-menu {
   display: flex;
-
-  align-items: center;
+  align-items: flex-start;
+margin: 0 auto;
+justify-content: space-between;
+padding-left: 15px;
+  padding-right: 15px;
+  gap: 24px;
 }
 .skills-container {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
   padding-bottom: 120px;
   width: 100%;
-  max-width: 1158px;
+ padding-left: 15px;
+  padding-right: 15px;
 }
 .skills-menu-item {
-  padding-right: 15px;
-  padding-left: 15px;
-  width: calc(100% - (24px * 3) / 4);
+  
+  width: calc((100% - 3 * 72px) / 4);
 }
 .skills-subtitle {
   color: var(--navyblue, #2e2f42);
@@ -329,6 +335,7 @@ ol {
 }
 .team-list-menu {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-img {
   margin-bottom: 32px;
@@ -357,7 +364,7 @@ ol {
 /*------------------PORTFOLIO-----------------*/
 .portfolio-container {
   padding-bottom: 72px;
-  display: inline-flex;
+  display: inline-block;
   justify-self: center;
   margin: 0 auto;
 }
@@ -368,7 +375,7 @@ ol {
   padding-right: 15px;
   padding-left: 15;
   margin: 0 auto;
-  display: inline-flex;
+  display: inline-block;
 }
 
 .portfolio-btn {
@@ -384,7 +391,7 @@ ol {
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
-  display: inline-flex;
+  display:inline-block;
   margin: o auto;
 }
 .portfolio-btn:hover,
