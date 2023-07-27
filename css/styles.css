@@ -93,6 +93,11 @@ ol {
 .header-container {
   display: flex;
   align-items: center;
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 .header-navigation {
   align-items: center;
