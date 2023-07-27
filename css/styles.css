@@ -118,7 +118,6 @@ ol {
   text-align: center;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-menu-item {
@@ -135,6 +134,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   display: flex;
+  padding: 24px 0;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
