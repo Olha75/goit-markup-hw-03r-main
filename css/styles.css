@@ -220,13 +220,7 @@ ol {
 
 .skills-menu {
   display: flex;
-  align-items: flex-start;
-  margin: 0 auto;
-  justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px;
   gap: 24px;
-  max-width: 1158px;
 }
 
 .skills-menu-item {
@@ -263,11 +257,8 @@ ol {
 }
 
 .development-menu-list {
-  padding-right: 15px;
-  padding-left: 15px;
   display: flex;
   gap: 24px;
-  max-width: 1158px;
 }
 
 .development-menu-item {
@@ -295,10 +286,7 @@ ol {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
-  justify-content: center;
-  max-width: 1158px;
+
 }
 .team-list-menu {
   background-color: #ffffff;
@@ -328,7 +316,6 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0;
-  margin-bottom: 32px;
 }
 
 /*------------------PORTFOLIO-----------------*/
