@@ -53,12 +53,12 @@ ol {
 
 .container {
   width: 100%;
-  max-width: 1158px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  margin-left: 161px;
-  margin-right: 161px;
+  margin-left: 151px;
+  margin-right: 151px;
 }
 
 .visually-hidden {
@@ -228,6 +228,7 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   gap: 24px;
+  width: 1158px;
 }
 
 .skills-menu-item {
