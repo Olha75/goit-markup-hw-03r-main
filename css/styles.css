@@ -226,7 +226,7 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   gap: 24px;
-  width: 1158px;
+  max-width: 1158px;
 }
 
 .skills-menu-item {
@@ -267,7 +267,7 @@ ol {
   padding-left: 15px;
   display: flex;
   gap: 24px;
-  width: 1158px;
+  max-width: 1158px;
 }
 
 .development-menu-item {
@@ -298,7 +298,7 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   justify-content: center;
-  width: 1158px;
+  max-width: 1158px;
 }
 .team-list-menu {
   background-color: #ffffff;
