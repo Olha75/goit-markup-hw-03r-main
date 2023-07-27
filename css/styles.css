@@ -57,7 +57,7 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
- }
+}
 
 .visually-hidden {
   position: absolute;
@@ -83,14 +83,17 @@ ol {
 /*----------------HEADER-------------*/
 
 .header {
-  display: flex;
-  align-items: center;
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
+.header-container {
+  display: flex;
+  align-items: center;
+}
 .header-navigation {
   align-items: center;
   display: flex;
@@ -175,9 +178,6 @@ ol {
   display: block;
   margin: 0 auto;
   align-items: center;
-  
-  
-
 }
 
 .business-title {
@@ -186,13 +186,8 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  display: block;
   max-width: 496px;
   margin: 0 auto 48px;
-  flex-shrink: 0;
-  display: inline-block;
-  text-align: center;
-  justify-items: center;
 }
 
 .business-btn {
@@ -256,7 +251,6 @@ ol {
 /*----------------DEVELOPMENT-------------*/
 .development {
   padding-bottom: 120px;
-
 }
 .development-title {
   color: var(--navyblue, #2e2f42);
@@ -266,7 +260,7 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   display: block;
-  margin: 0 auto 72px ;
+  margin: 0 auto 72px;
   text-align: center;
 }
 
@@ -275,7 +269,7 @@ ol {
   padding-left: 15px;
   display: flex;
   gap: 24px;
-  }
+}
 
 .development-menu-item {
   width: calc((100% - 48px) / 3);
