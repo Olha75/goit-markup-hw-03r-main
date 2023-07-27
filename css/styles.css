@@ -87,16 +87,16 @@ ol {
   max-width: 1158px;
   margin: 0 auto;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .header-container {
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 1158px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin: 0 auto;
 }
 .header-navigation {
@@ -237,7 +237,7 @@ ol {
 }
 
 .skills-menu-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100%-3 * 24px) / 4);
 }
 .skills-subtitle {
   color: var(--navyblue, #2e2f42);
