@@ -83,14 +83,14 @@ ol {
 /*----------------HEADER-------------*/
 
 .header {
-  width: 100%;
-  max-width: 1158px;
-  margin: 0 auto;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 .header-container {
   display: flex;
   align-items: center;
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 .header-navigation {
   align-items: center;
@@ -286,7 +286,6 @@ ol {
 .team-list {
   display: flex;
   gap: 24px;
-
 }
 .team-list-menu {
   background-color: #ffffff;
@@ -294,7 +293,6 @@ ol {
   width: calc((100% - 3 * 24px) / 4);
 }
 .team-img {
-  margin-bottom: 32px;
 }
 .team-working {
   padding: 32px 0;
@@ -373,7 +371,6 @@ ol {
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
-  border: 1px solid var(--cornflower, #e7e9fc);
 }
 
 .portfolio-card {
@@ -382,7 +379,6 @@ ol {
   border-top: none;
 }
 .portfolio-img {
-  margin-bottom: 32px;
 }
 .portfolio-subtitle {
   color: var(--navyblue, #2e2f42);
@@ -429,6 +425,5 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0;
-  margin-top: 17.5px;
   max-width: 264px;
 }
